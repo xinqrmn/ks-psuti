@@ -1,0 +1,23 @@
+@import './nullstyle';
+
+body {
+  font-size: 16px;
+}
+
+.contanier {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.title-3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.text {
+  margin-bottom: 10px;
+
+  span {
+    font-weight: 700; 
+  }
+}
