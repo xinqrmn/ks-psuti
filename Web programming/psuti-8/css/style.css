@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+
+.title-3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.text {
+  margin-bottom: 10px;
+}
+.text span {
+  font-weight: 700;
+}
+
+.task-item {
+  border-bottom: 1px solid #000;
+  padding-bottom: 30px;
+}
+
+.task-inner {
+  display: flex;
+  border: 1px solid black;
+  width: 300px;
+}
+
+.task-input {
+  width: 70%;
+  padding: 15px;
+  font-size: 16px;
+  position: relative;
+}
+
+
+.task-input--clicked::placeholder {
+  text-decoration: underline;
+  color: red;
+}
+
+.btn,
+.btn-normal {
+
+  background-color: black;
+  color: white;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.btn {
+  width: 40%;
+}
+
+.btn-normal {
+  padding: 15px 30px;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  padding-top: 100px;
+}
+
+.modal-content {
+  margin: 0 auto;
+  background-color: #dff0d8;
+  border: 1px solid #c1daad;
+  color: #3c763d;
+  padding: 10px;
+  border-radius: 4px;
+  width: max-content;
+  font-size: 18px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation: topFromBottom .5s;
+}
+
+.title-4 span {
+  font-weight: 700;
+}
+
+@keyframes topFromBottom {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+
+.number-list {
+  padding-top: 30px;
+  padding-left: 15px;
+}
+.number-list__item:not(:last-child) {
+  margin-bottom: 10px;
+}
