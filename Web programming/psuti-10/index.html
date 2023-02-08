@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10 Practic</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">10 Practic</h1>
+      <h3 class="title-3">5.1</h3>
+      <form class="form" name="perimetr">
+        <label class="form__label">
+          <span>Длинна: </span>
+          <input
+            class="form__input"
+            name="one"
+            type="text"
+            id="height"
+            value=""
+          />
+        </label>
+        <label class="form__label">
+          <span>Ширина: </span>
+          <input
+            class="form__input"
+            name="two"
+            type="text"
+            id="width"
+            value=""
+          />
+        </label>
+
+        <button type="button" class="btn" id="btn-perimetr">Вычислить</button>
+
+        <label class="form__label">
+          <span>Результат: </span>
+          <input class="form__input" name="three" type="text" id="result" />
+        </label>
+      </form>
+
+      <h3 class="title-3">5.2</h3>
+      <textarea class="textarea" id="area"></textarea>
+
+      <ul class="subject__list">
+        <li
+          class="subject__item"
+          onmouseover="descr('Галина Васильевна')"
+          onmouseout="clearVal()"
+        >
+          Математика
+        </li>
+        <li
+          class="subject__item"
+          onmouseover="descr('Полина Генадьевна')"
+          onmouseout="clearVal()"
+        >
+          Физкика
+        </li>
+        <li
+          class="subject__item"
+          onmouseover="descr('Роман Мелтин')"
+          onmouseout="clearVal()"
+        >
+          Информатика
+        </li>
+        <li
+          class="subject__item"
+          onmouseover="descr('Дмитрий Попков')"
+          onmouseout="clearVal()"
+        >
+          Русский язык
+        </li>
+      </ul>
+
+      <h3 class="title-3">5.3</h3>
+      <form class="put">
+        <input class="put__input" type="text" />
+        <button class="put__btn" id="inputOff" type="button">
+          Заблокировать
+        </button>
+        <button class="put__btn" id="inputOn" type="button">
+          Разблокировать
+        </button>
+      </form>
+
+      <h3 class="title-3">5.4</h3>
+      <form class="hola">
+        <div class="hola__box">
+          <input class="hola__input" type="checkbox" />
+          <label class="hola__label">You hola?</label>
+        </div>
+        <button class="hola__btn" type="button">Проверка</button>
+        <p class="hola__text"></p>
+      </form>
+    </div>
+  </body>
+  <script src="./main.js"></script>
+</html>
