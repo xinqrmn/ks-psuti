@@ -14,3 +14,7 @@
   + [2 практика](https://github.com/xinqrmn/ks-psuti/tree/main/Java/2%20practis)
   + [4 практика](https://github.com/xinqrmn/ks-psuti/tree/main/Java/4%20practice)
   + [5 практика](https://github.com/xinqrmn/ks-psuti/tree/main/Java/5%20practice)
+  + [6 практика](https://github.com/xinqrmn/ks-psuti/tree/main/Java/6%20practice)
+  + [7 практика](https://github.com/xinqrmn/ks-psuti/tree/main/Java/7%20practice)
+  + [8 практика](https://github.com/xinqrmn/ks-psuti/tree/main/Java/8%20practice)
+      
