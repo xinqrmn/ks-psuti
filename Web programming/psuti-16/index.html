@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+				content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>15 Practice</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<div class="container">
+	<h1 class="title">16 Practice</h1>
+
+	<div class="task-1">
+		<h2 class="task-1__title subtitle">1 task</h2>
+		<p class="task-1__text" :class="{hovered: isHovered, }" @mouseover="isHovered = true" @mouseout="isHovered = false">
+			{{message}}
+		</p>
+	</div>
+
+	<div class="task-2">
+		<h2 class="task-2__title subtitle">2 Task</h2>
+		<p class="task-2__text" :class="styleCss">Color: {{styleCss}}</p>
+		<input class="task-2__input" v-model="styleCss">
+	</div>
+
+	<div class="task-3">
+		<h2 class="task-3__title subtitle">3 Task</h2>
+		<button class="task-3__btn" type="button" v-on:click="showed = !showed">Click me!</button>
+		<div class="task-3__inner">
+			<img class="task-3__img" v-if="showed" src="https://plus.unsplash.com/premium_photo-1666788167959-740b0b11e00b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=711&q=80" alt="">
+			<div class="task-3__block" v-else="showed" >А нету!</div>
+		</div>
+	</div>
+
+	<div class="task-4">
+		<h2 class="task-4__title subtitle">4 Task</h2>
+		<ul class="task-4__list">
+			<span>Преподователя</span>
+			<li class="task-4__item" v-for="person in prepods">{{person.name}}</li>
+			<span>Дисциплины</span>
+			<li class="task-4__item" v-for="person in prepods">{{person.disciplines}}</li>
+		</ul>
+	</div>
+</div>
+
+<script src="https://unpkg.com/vue@2"></script>
+<script src="./app.js"></script>
+</body>
+</html>

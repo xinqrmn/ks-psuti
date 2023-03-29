@@ -1,0 +1,102 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 50px 10px;
+}
+
+.title {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 75px;
+}
+
+.subtitle {
+	margin-bottom: 15px;
+}
+
+.task-1 {
+	margin-bottom: 40px;
+}
+
+.task-1__text{
+	font-size: 20px;
+	transition: font-size .3s;
+}
+
+.task-1__text.hovered {
+	font-size: 23px;
+}
+
+.task-2 {
+	margin-bottom: 40px;
+}
+
+.task-2__text {
+	margin-bottom: 10px;
+}
+
+.task-2__text.grey {
+	color: grey;
+}
+.task-2__text.red {
+	color: red;
+}
+.task-2__text.green {
+	color: green;
+}
+.task-2__text.blue {
+	color: blue;
+}
+.task-2__text.pink {
+	color: pink;
+}
+
+.task-2__input {
+	font-size: 20px;
+	padding: 5px;
+}
+
+.task-3__block,
+.task-3__img {
+	width: 200px;
+	height: 300px;
+}
+
+.task-3__block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 30px;
+}
+
+.task-3__btn {
+	border: 0;
+	background-color: #000;
+	padding: 10px 30px;
+	color: #fff;
+	font-size: 20px;
+	min-width: 100px;
+	margin-bottom: 10px;
+}
+
+.task-4__list span {
+	font-size: 24px;
+	font-weight: 700;
+	margin: 15px 0;
+	display: block;
+}
+
+.task-4__item {
+
+
+}
