@@ -7,6 +7,8 @@
   + [9 практика](https://github.com/xinqrmn/ks-psuti/tree/main/Web%20programming/psuti-9)
   + [10 практика](https://github.com/xinqrmn/ks-psuti/tree/main/Web%20programming/psuti-10)
   + [12 рактика](https://github.com/xinqrmn/ks-psuti/tree/main/Web%20programming/psuti-12)
+  + [15 рактика](https://github.com/xinqrmn/ks-psuti/tree/main/Web%20programming/psuti-15)
+  + [16 рактика](https://github.com/xinqrmn/ks-psuti/tree/main/Web%20programming/psuti-16)
   
 *********
 
